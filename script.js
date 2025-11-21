@@ -31,7 +31,7 @@ addbook.addEventListener("click",function(event){
     var div=document.createElement("div")
     div.setAttribute("class","book-container")
     div.innerHTML=`<h2>${booktitleinput.value}</h2>
-            <h5>${bookauthorinput.value}</h5>
+            <h4>${bookauthorinput.value}</h4>
             <p>${bookdescriptioninput.value}</p>
             <button onclick="deletebook(event)">Delete</button>`
     container.append(div)
